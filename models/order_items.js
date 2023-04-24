@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
           });
     }
   }
-  order_items.init({
+  Order_items.init({
     order_id: DataTypes.STRING,
     product_id: DataTypes.STRING,
     quantity: DataTypes.STRING,
